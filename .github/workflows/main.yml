@@ -12,6 +12,7 @@ env:
   RUN_ENV: 'prod'
   TZ: 'Asia/Shanghai'
   FUCK_GH_PAT: ${{ secrets.GH_PAT }}
+  OPENSSL_CONF: './openssl.cnf'
 
 jobs:
   build:
